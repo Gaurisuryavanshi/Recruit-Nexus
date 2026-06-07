@@ -907,7 +907,7 @@ if (profileForm) {
 
         try {
             // n8n webhook code url sync trigger
-            const response = await fetch("http://localhost:5678/webhook/update-profile", { 
+            const response = await fetch("https://3dzqxw2k-5678.inc1.devtunnels.ms/webhook/update-profile", { 
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(updatedData)
