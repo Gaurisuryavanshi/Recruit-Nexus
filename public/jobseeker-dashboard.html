@@ -545,11 +545,11 @@
 
 <script>
     const BASE_TUNNEL_URL = "https://3dzqxw2k-5678.inc1.devtunnels.ms/webhook/Job%20Application";
-    const WEBHOOK_URL = "http://localhost:5678/webhook-test/Job%20Application";
+    const WEBHOOK_URL =const WEBHOOK_URL = window.location.origin + "/webhook-test/Job%20Application";
     const N8N_FORM_URL = "https://3dzqxw2k-5678.inc1.devtunnels.ms/form/6677f5d4-d655-460e-ad4c-2df51a22c9b6"; 
-    const RESUME_WEBHOOK_URL = "http://localhost:5678/webhook/parse-resume";
-    const N8N_WEBHOOK_URL = 'http://localhost:5678/webhook/jobseeker-chat';
-    const N8N_PROFILE_UPDATE_URL = "http://localhost:5678/webhook/update-profile"; // profile n8n webhook URL
+    const RESUME_WEBHOOK_URL = const RESUME_WEBHOOK_URL = window.location.origin + "/webhook/parse-resume";
+    const N8N_WEBHOOK_URL = 'https://TUZA-N8N-URL/webhook/jobseeker-chat';
+    const N8N_PROFILE_UPDATE_URL = 'https://TUZA-N8N-URL/webhook/update-profile';
 
     const VAPI_PUBLIC_KEY = "5337c487-eba3-4168-8139-640605a107ef"; 
     const ASSISTANT_ID = "a18b8cba-5b23-41d4-946e-c0ea9c73ee4f"; 
