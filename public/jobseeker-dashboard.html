@@ -1108,7 +1108,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     console.log("🔍 Fetching data from Sheet via n8n for:", loggedInEmail);
 
     try {
-        const response = await fetch('http://localhost:5678/webhook/get-profile', {
+        const response = await fetch(https://3dzqxw2k-5678.inc1.devtunnels.ms/webhook/get-profile, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ email: loggedInEmail })
