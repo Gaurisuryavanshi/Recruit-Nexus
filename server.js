@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const multer = require('multer');
-const pdf = require('pdf-parse');
 const fs = require('fs');
 const path = require('path');
 
